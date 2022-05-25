@@ -4,9 +4,7 @@ const config = {
     host: process.env.APP_HOST || "0.0.0.0",
   },
   dbConfig: {
-    port: process.env.DB_PORT,
-    host: process.env.DB_HOST,
-    dbName: process.env.DB_NAME,
+    mongoUri: process.env.MONGODB_URI,
   },
 };
 
